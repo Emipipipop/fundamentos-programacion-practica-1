@@ -29,6 +29,7 @@ function miInformacion() {
  * @param {number} b - Segundo nÃºmero
  * @returns {suma: number, resta: number, multiplicacion: number, division: number} - Objeto con suma, resta, multiplicaciÃ³n y divisiÃ³n
  */
+// Ejercicio 2.2 completados
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
   
