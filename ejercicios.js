@@ -232,6 +232,7 @@ function encontrarMaximo(numeros) {
       maximo = numeros[i];
       }
     }
+    //corregido final
     return maximo;
 }
 
