@@ -232,7 +232,7 @@ function encontrarMaximo(numeros) {
       maximo = numeros[i];
       }
     }
-    //corregido 15 final
+    //corregido 15  final
     return maximo;
 }
 
