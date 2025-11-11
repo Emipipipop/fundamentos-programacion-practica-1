@@ -51,7 +51,7 @@ function operacionesBasicas(a, b) {
 function areaRectangulo(base, altura) {
   
   const area = base*altura ;
-  
+
   return area;
 }
 
@@ -64,7 +64,6 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   return (celsius * 9/5) + 32;
-  return 0;
 }
 
 // ============================================
@@ -247,8 +246,8 @@ function filtrarMayores(numeros, limite) {
     if (numeros[i] > limite) {
       mayores.push(numeros[i]);
     }
-    return mayores;
-  }
+    return mayores; 
+  } 
 }
 
 /**
