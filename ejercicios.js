@@ -231,6 +231,7 @@ function encontrarMaximo(numeros) {
     if (numeros[i] > maximo) {
       maximo = numeros[i];
     }
+    return maximo;
 }
 
 /**
