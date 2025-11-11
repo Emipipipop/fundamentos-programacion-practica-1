@@ -232,6 +232,7 @@ function encontrarMaximo(numeros) {
       maximo = numeros[i];
       }
     }
+    //corregido 15 final
     return maximo;
 }
 
@@ -243,13 +244,14 @@ function encontrarMaximo(numeros) {
  * Ejemplo: filtrarMayores([1, 5, 3, 8, 2], 4) debe retornar [5, 8]
  */
 function filtrarMayores(numeros, limite) {
+  //corregido final
    const mayores = [];
-    for (let i = 0; i < numeros.length; i++) {
-    if (numeros[i] > limite) {
-      mayores.push(numeros[i]);
-    }
-    return mayores; 
-  } 
+   for (let i = 0; i < numeros.length; i++) {
+      if (numeros[i] > limite) {
+         mayores.push(numeros[i]);
+      }
+   }
+   return mayores;
 }
 
 /**
