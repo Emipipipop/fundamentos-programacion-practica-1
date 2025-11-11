@@ -155,8 +155,11 @@ function factorial(n) {
  * @returns {number} - Suma de 1 + 2 + 3 + ... + n
  */
 function sumaHastaN(n) {
-  // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+   let suma = 0;
+  for (let i = 1; i <= n; i++) {
+    suma += i;
+  }
+  return suma;
 }
 
 /**
