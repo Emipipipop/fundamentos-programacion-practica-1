@@ -213,8 +213,11 @@ function sumaArray(numeros) {
  * @returns {number} - Promedio de los nÃºmeros
  */
 function promedioArray(numeros) {
-  // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+   let suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    suma += numeros[i];
+  }
+  return numeros.length > 0 ? suma / numeros.length : 0;
 }
 
 /**
