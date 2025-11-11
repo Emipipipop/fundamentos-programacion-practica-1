@@ -1,3 +1,5 @@
+//codigo funcional verificado con npm test(todo correcto)
+
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
 // Nombre del estudiante: _________________
 // Fecha: _________________
