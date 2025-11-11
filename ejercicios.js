@@ -232,7 +232,11 @@ function encontrarMaximo(numeros) {
       maximo = numeros[i];
       }
     }
+<<<<<<< HEAD
     //corregido 15  final
+=======
+    //corregido final
+>>>>>>> fc0f904303df56af66860e791234a604087dc8e8
     return maximo;
 }
 
