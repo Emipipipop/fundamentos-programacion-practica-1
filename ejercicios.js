@@ -64,6 +64,7 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   return (celsius * 9/5) + 32;
+  //corregido final
 }
 
 // ============================================
@@ -229,6 +230,7 @@ function encontrarMaximo(numeros) {
     for (let i = 1; i < numeros.length; i++) {
     if (numeros[i] > maximo) {
       maximo = numeros[i];
+      }
     }
     return maximo;
 }
